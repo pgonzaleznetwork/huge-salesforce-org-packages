@@ -1,0 +1,10 @@
+<template>
+    <lightning-tree
+        lwc:if={treeData}
+        items={treeData}
+        header="Groups &amp; Recipes"
+        onselect={handleTreeItemSelect}
+        selected-item={selectedItem}
+    ></lightning-tree>
+    <c-error-panel lwc:if={error} errors={error}></c-error-panel>
+</template>
