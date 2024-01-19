@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Define source and destination paths
-source_path="/Users/pgonzalez/Documents/apps/trailheadapps/salesforce-feature-flags/force-app"
-destination_path="/Users/pgonzalez/Documents/apps/trailheadapps/huge-salesforce-org-packages/salesforce-feature-flags"
+source_path="/Users/pgonzalez/Documents/apps/trailheadapps/sfdx-community-deployment/force-app"
+destination_path="/Users/pgonzalez/Documents/apps/trailheadapps/huge-salesforce-org-packages/sfdx-community-deployment"
 
 # Check if the source directory exists
 if [ -d "$source_path" ]; then
