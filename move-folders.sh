@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Define source and destination paths
-source_path="/Users/pgonzalez/Documents/apps/trailheadapps/sfdx-community-deployment/force-app"
-destination_path="/Users/pgonzalez/Documents/apps/trailheadapps/huge-salesforce-org-packages/sfdx-community-deployment"
+source_path="/Users/pgonzalez/Documents/apps/trailheadapps/NebulaLogger/nebula-logger/core"
+destination_path="/Users/pgonzalez/Documents/apps/trailheadapps/huge-salesforce-org-packages/nebula-logger"
 
 # Check if the source directory exists
 if [ -d "$source_path" ]; then
