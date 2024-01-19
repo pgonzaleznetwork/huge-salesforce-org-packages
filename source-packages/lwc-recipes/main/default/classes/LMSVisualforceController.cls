@@ -10,7 +10,7 @@ public with sharing class LMSVisualforceController {
         Id contactId = ApexPages.currentPage().getParameters().get('Id');
 
         this.contactRecord = [
-            SELECT Id, Name, Title, Phone, Email, Picture__c
+            SELECT Id, Name, Title, Phone, Email
             FROM Contact
             WHERE Id = :contactId
             WITH USER_MODE

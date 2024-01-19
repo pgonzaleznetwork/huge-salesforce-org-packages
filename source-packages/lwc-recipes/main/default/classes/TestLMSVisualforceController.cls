@@ -43,8 +43,7 @@ private class TestLMSVisualforceController {
             LastName = 'Crumpler',
             Title = 'Doctor',
             Phone = '+1-703-555-1883',
-            Email = 'rebecca@first.md',
-            Picture__c = 'https://url'
+            Email = 'rebecca@first.md'
         );
 
         insert testContact;
@@ -101,10 +100,6 @@ private class TestLMSVisualforceController {
             controller.contactRecord.Email,
             'actual controller.contactRecord.Email should match expected testContact.Email'
         );
-        Assert.areEqual(
-            testContact.Picture__c,
-            controller.contactRecord.Picture__c,
-            'actual controller.contactRecord.Picture__c should match expected testContact.Picture__c'
-        );
+        
     }
 }

@@ -9,10 +9,10 @@ public with sharing class ContactController {
                 LastName,
                 Title,
                 Phone,
-                Email,
-                Picture__c
+                Email
+              
             FROM Contact
-            WHERE Picture__c != NULL
+           
             WITH USER_MODE
             LIMIT 10
         ];
@@ -22,9 +22,9 @@ public with sharing class ContactController {
     public static List<Contact> findContacts(String searchKey) {
         String key = '%' + searchKey + '%';
         return [
-            SELECT Id, Name, Title, Phone, Email, Picture__c
+            SELECT Id, Name, Title, Phone, Email
             FROM Contact
-            WHERE Name LIKE :key AND Picture__c != NULL
+            WHERE Name LIKE :key 
             WITH USER_MODE
             LIMIT 10
         ];
@@ -33,7 +33,7 @@ public with sharing class ContactController {
     @AuraEnabled(cacheable=true)
     public static Contact getSingleContact() {
         return [
-            SELECT Id, Name, Title, Phone, Email, Picture__c
+            SELECT Id, Name, Title, Phone, Email
             FROM Contact
             WITH USER_MODE
             LIMIT 1

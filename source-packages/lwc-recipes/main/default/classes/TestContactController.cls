@@ -7,8 +7,8 @@ public with sharing class TestContactController {
             contacts.add(
                 new Contact(
                     FirstName = 'First ' + i,
-                    LastName = 'Last ' + i,
-                    Picture__c = 'test'
+                    LastName = 'Last ' + i
+                    
                 )
             );
         }

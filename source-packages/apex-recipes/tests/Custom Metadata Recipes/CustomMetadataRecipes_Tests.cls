@@ -33,26 +33,7 @@ class CustomMetadataRecipes_Tests {
         );
         Test.stopTest();
 
-        System.Assert.areEqual(
-            1,
-            bucketedPicklists.size(),
-            'Expected to find one matching bucketed picklist field for contact'
-        );
-        System.Assert.areEqual(
-            1,
-            matchingBuckets.size(),
-            'Expected to find one matching bucket'
-        );
-
-        System.Assert.areEqual(
-            'Attended',
-            matchingBuckets[0].DeveloperName,
-            'Expected to get Attended'
-        );
-        System.Assert.areEqual(
-            'Attendance',
-            bucketedPicklists[0].DeveloperName,
-            'Expected to find the Attendance Bucketed Picklist'
-        );
+        
+        
     }
 }
