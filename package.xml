@@ -562,10 +562,10 @@
         <members>LogEvent__c.Quiddity__c</members>
         <members>LogEvent__c.Request_Id__c</members>
         <members>LogEvent__c.Severity__c</members>
-        <members>Log__e.Log_Message__c</members>
-        <members>Log__e.Quiddity__c</members>
-        <members>Log__e.Request_Id__c</members>
-        <members>Log__e.Severity__c</members>
+        <members>LogEvent__e.Log_Message__c</members>
+        <members>LogEvent__e.Quiddity__c</members>
+        <members>LogEvent__e.Request_Id__c</members>
+        <members>LogEvent__e.Severity__c</members>
         <members>Metadata_Driven_Trigger__mdt.Class__c</members>
         <members>Metadata_Driven_Trigger__mdt.Enabled__c</members>
         <members>Metadata_Driven_Trigger__mdt.Execution_Order__c</members>
@@ -681,7 +681,7 @@
         <members>Junction_Demo_2__c</members>
         <members>Junction__c</members>
         <members>LogEvent__c</members>
-        <members>Log__e</members>
+        <members>LogEvent__e</members>
         <members>Metadata_Driven_Trigger__mdt</members>
         <members>Permission_Set_Group_Testing_Result__mdt</members>
         <members>Picklist_Bucket__mdt</members>
