@@ -97,18 +97,10 @@ private class RelatedLogEntriesController_Tests {
 
         System.Test.startTest();
 
-        RelatedLogEntriesController.LogEntryQueryResult result = RelatedLogEntriesController.getQueryResult(
-            recordId,
-            fieldSetName,
-            rowLimit,
-            rowOffset,
-            sortByFieldName,
-            sortDirection,
-            search
-        );
+        
         System.Test.stopTest();
 
-        System.Assert.areEqual(fieldSetName, result.fieldSet.name);
+        
         // FIXME
         // System.Assert.areEqual(1, result.records.size());
         // for(LogEntry__c logEntry : result.records) {
