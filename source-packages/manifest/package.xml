@@ -3324,6 +3324,9 @@
         <members>SessionHijackingEventStore.SourceIp</members>
         <members>SessionHijackingEventStore.Summary</members>
         <members>SessionHijackingEventStore.UserId</members>
+        <members>SfpowerscriptsArtifact2__c.CommitId__c</members>
+        <members>SfpowerscriptsArtifact2__c.Tag__c</members>
+        <members>SfpowerscriptsArtifact2__c.Version__c</members>
         <members>Shift.BackgroundColor</members>
         <members>Shift.EndTime</members>
         <members>Shift.Label</members>
@@ -4058,6 +4061,7 @@
         <members>ServiceTerritoryMember</members>
         <members>ServiceTerritoryWorkType</members>
         <members>SessionHijackingEventStore</members>
+        <members>SfpowerscriptsArtifact2__c</members>
         <members>Shift</members>
         <members>ShiftEngagementChannel</members>
         <members>ShiftWorkTopic</members>
@@ -4130,6 +4134,7 @@
         <members>LoggerSettings__c-en_US</members>
         <members>LoggerTag__c-en_US</members>
         <members>Property__c-en_US</members>
+        <members>SfpowerscriptsArtifact2__c-en_US</members>
         <members>Trigger_Action__mdt-en_US</members>
         <members>TwilioConfig__c-en_US</members>
         <members>di_Binding__mdt-en_US</members>
@@ -4311,6 +4316,7 @@
         <name>Flow</name>
     </types>
     <types>
+        <members>AssignScratchorg</members>
         <members>Create_a_Case_Custom</members>
         <members>Create_property</members>
         <name>FlowDefinition</name>
