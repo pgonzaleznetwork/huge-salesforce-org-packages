@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Log Status</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Log Statuses</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Only_closed_can_be_resolved</name>
+    </validationRules>
+</CustomObjectTranslation>
