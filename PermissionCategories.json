@@ -1,0 +1,103 @@
+[
+    {
+        "category": "SuperAdmin",
+        "permissions": [
+            {
+                "name": "PermissionsModifyAllData",
+                "description": "Modify all data across the organization.",
+                "requiresCaution": true
+            },
+            {
+                "name": "PermissionsViewAllData",
+                "description": "View all data across the organization.",
+                "requiresCaution": true
+            }
+        ]
+    },
+    {
+        "category": "AccessControl",
+        "permissions": [
+            {
+                "name": "PermissionsAssignPermissionSets",
+                "description": "Assign permission sets to users to grant specific access."
+            },
+            {
+                "name": "PermissionsManageProfilesPermissionsets",
+                "description": "Manage profiles and permission sets to control user permissions."
+            },
+            {
+                "name": "PermissionsManageRoles",
+                "description": "Create and manage roles for hierarchical access control."
+            },
+            {
+                "name": "PermissionsManageSessionPermissionSets",
+                "description": "Assign permission sets based on user sessions."
+            }
+        ]
+    },
+    {
+        "category": "PasswordManagement",
+        "permissions": [
+            {
+                "name": "PermissionsResetPasswords",
+                "description": "Reset passwords for users."
+            },
+            {
+                "name": "PermissionsManagePasswordPolicies",
+                "description": "Define and manage password policies for security."
+            },
+            {
+                "name": "PermissionsPasswordNeverExpires",
+                "description": "Users with this permission have passwords that never expire."
+            }
+        ]
+    },
+    {
+        "category": "UserManagement",
+        "permissions": [
+            {
+                "name": "PermissionsManageUsers",
+                "description": "Create and manage users within the organization."
+            }
+        ]
+    },
+    {
+        "category": "DataExport",
+        "permissions": [
+            {
+                "name": "PermissionsExportReport",
+                "description": "Export reports from Salesforce to external files."
+            },
+            {
+                "name": "PermissionsExportData",
+                "description": "Export data from Salesforce for backup or analysis."
+            }
+        ]
+    },
+    {
+        "category": "DataImport",
+        "permissions": [
+            {
+                "name": "PermissionsImportCustomObjects",
+                "description": "Import data into custom objects within Salesforce."
+            },
+            {
+                "name": "PermissionsImportLeads",
+                "description": "Import lead data into Salesforce."
+            }
+        ]
+    },
+    {
+        "category": "CustomCode",
+        "permissions": [
+            {
+                "name": "PermissionsAuthorApex",
+                "description": "Write and edit Apex code within Salesforce."
+            },
+            {
+                "name": "PermissionsModifyMetadata",
+                "description": "Modify metadata within Salesforce."
+            }
+        ]
+    }
+]

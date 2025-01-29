@@ -2,8 +2,12 @@
   "packageDirectories": [
     {
       "path": "source-packages",
+      "default": false
+    },
+    {
+      "path": "force-app",
       "default": true
-    }
+    } 
   ],
   "name": "huge-salesforce-org-packages",
   "namespace": "",
