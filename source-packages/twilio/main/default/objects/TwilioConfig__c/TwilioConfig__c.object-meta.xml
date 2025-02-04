@@ -4,4 +4,5 @@
     <description>Twilio App Config</description>
     <enableFeeds>false</enableFeeds>
     <label>Twilio Config</label>
+    <visibility>Public</visibility>
 </CustomObject>
