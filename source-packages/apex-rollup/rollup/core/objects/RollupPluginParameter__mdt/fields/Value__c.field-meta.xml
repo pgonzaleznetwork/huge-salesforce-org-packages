@@ -7,7 +7,7 @@
     <inlineHelpText>Generic text value - different records can hold different param values here</inlineHelpText>
     <label>Value</label>
     <length>255</length>
-    <required>true</required>
+    <required>false</required>
     <type>Text</type>
     <unique>false</unique>
 </CustomField>

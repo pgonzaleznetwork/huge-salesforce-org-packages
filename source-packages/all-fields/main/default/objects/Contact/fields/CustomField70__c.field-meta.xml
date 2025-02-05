@@ -4,7 +4,7 @@
             <externalId>false</externalId>
             <label>CustomField70</label>
             <length>50</length>
-            <required>true</required>
+            <required>false</required>
             <trackTrending>false</trackTrending>
             <type>Text</type>
             <unique>false</unique>

@@ -8,7 +8,7 @@
     <isNameField>false</isNameField>
     <isSortingDisabled>false</isSortingDisabled>
     <label>Timestamp</label>
-    <required>true</required>
+    <required>false</required>
     <securityClassification>Confidential</securityClassification>
     <type>DateTime</type>
 </CustomField>

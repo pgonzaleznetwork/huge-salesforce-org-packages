@@ -6,7 +6,7 @@
     <fieldManageability>SubscriberControlled</fieldManageability>
     <inlineHelpText>Determines which async or sync context the Rollup will run in. Default is &quot;Queueable&quot;</inlineHelpText>
     <label>Should Run As</label>
-    <required>true</required>
+    <required>false</required>
     <type>Picklist</type>
     <valueSet>
         <restricted>true</restricted>

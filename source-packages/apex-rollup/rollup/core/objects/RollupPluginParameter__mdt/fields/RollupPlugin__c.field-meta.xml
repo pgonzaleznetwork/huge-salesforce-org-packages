@@ -9,7 +9,7 @@
     <referenceTo>RollupPlugin__mdt</referenceTo>
     <relationshipLabel>Rollup Plugin Parameters</relationshipLabel>
     <relationshipName>RollupPluginParameters</relationshipName>
-    <required>true</required>
+    <required>false</required>
     <type>MetadataRelationship</type>
     <unique>false</unique>
 </CustomField>

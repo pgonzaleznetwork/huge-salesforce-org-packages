@@ -9,7 +9,7 @@
     <inlineHelpText>Defaults to EVENT_BUS. This controls the default save method used by Logger when calling saveLog(). In most situations, EVENT_BUS should be used.</inlineHelpText>
     <label>Save Method</label>
     <length>255</length>
-    <required>true</required>
+    <required>false</required>
     <securityClassification>Confidential</securityClassification>
     <trackTrending>false</trackTrending>
     <type>Text</type>

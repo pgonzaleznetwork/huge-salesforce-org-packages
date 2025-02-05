@@ -6,7 +6,7 @@
     <fieldManageability>SubscriberControlled</fieldManageability>
     <inlineHelpText>The rollup operation you&apos;re looking to perform</inlineHelpText>
     <label>Rollup Operation</label>
-    <required>true</required>
+    <required>false</required>
     <type>Picklist</type>
     <valueSet>
         <restricted>true</restricted>

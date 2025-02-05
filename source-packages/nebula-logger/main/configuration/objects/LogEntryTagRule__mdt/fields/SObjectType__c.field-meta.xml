@@ -9,7 +9,7 @@
     <referenceTo>EntityDefinition</referenceTo>
     <relationshipLabel>Log Entry Tag Rules</relationshipLabel>
     <relationshipName>LogEntryTagRules</relationshipName>
-    <required>true</required>
+    <required>false</required>
     <securityClassification>Confidential</securityClassification>
     <type>MetadataRelationship</type>
     <unique>false</unique>

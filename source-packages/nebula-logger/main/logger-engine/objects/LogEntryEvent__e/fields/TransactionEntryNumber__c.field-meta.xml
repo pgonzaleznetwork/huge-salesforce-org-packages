@@ -10,7 +10,7 @@
     <isSortingDisabled>false</isSortingDisabled>
     <label>Entry #</label>
     <precision>10</precision>
-    <required>true</required>
+    <required>false</required>
     <scale>0</scale>
     <securityClassification>Confidential</securityClassification>
     <type>Number</type>

@@ -8,7 +8,7 @@
     <fieldManageability>DeveloperControlled</fieldManageability>
     <label>Scenario</label>
     <length>255</length>
-    <required>true</required>
+    <required>false</required>
     <securityClassification>Confidential</securityClassification>
     <type>Text</type>
     <unique>true</unique>

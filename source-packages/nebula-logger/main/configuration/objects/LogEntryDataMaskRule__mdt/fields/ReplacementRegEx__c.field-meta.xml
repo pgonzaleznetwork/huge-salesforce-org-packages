@@ -7,7 +7,7 @@
     <fieldManageability>DeveloperControlled</fieldManageability>
     <label>Replacement RegEx</label>
     <length>255</length>
-    <required>true</required>
+    <required>false</required>
     <securityClassification>Confidential</securityClassification>
     <type>Text</type>
     <unique>false</unique>

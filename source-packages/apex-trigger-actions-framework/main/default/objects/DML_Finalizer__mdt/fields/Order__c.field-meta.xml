@@ -5,7 +5,7 @@
     <fieldManageability>DeveloperControlled</fieldManageability>
     <label>Order</label>
     <precision>18</precision>
-    <required>true</required>
+    <required>false</required>
     <scale>3</scale>
     <type>Number</type>
     <unique>false</unique>

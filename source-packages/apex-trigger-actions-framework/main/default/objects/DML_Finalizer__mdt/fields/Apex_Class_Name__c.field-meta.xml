@@ -8,7 +8,7 @@
     <inlineHelpText>Enter the name of the Apex Class which defines the action to be taken</inlineHelpText>
     <label>Apex Class Name</label>
     <length>255</length>
-    <required>true</required>
+    <required>false</required>
     <type>Text</type>
     <unique>true</unique>
 </CustomField>
