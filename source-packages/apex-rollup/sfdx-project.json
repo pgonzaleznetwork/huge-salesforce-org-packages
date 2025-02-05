@@ -1,0 +1,115 @@
+{
+    "packageDirectories": [
+        {
+            "default": true,
+            "package": "apex-rollup",
+            "path": "rollup",
+            "scopeProfiles": true,
+            "versionName": "Fixes RollupCalcItemReplacer usage with mutually exclusive where clauses, and enables Cursor usage from batch apex jobs",
+            "versionNumber": "1.7.4.0",
+            "versionDescription": "Fast, configurable, elastically scaling custom rollup solution. Apex Invocable action, one-liner Apex trigger/CMDT-driven logic, and scheduled Apex-ready.",
+            "releaseNotesUrl": "https://github.com/jamessimone/apex-rollup/releases/latest",
+            "unpackagedMetadata": {
+                "path": "extra-tests"
+            }
+        },
+        {
+            "package": "Apex Rollup - Custom Logger",
+            "path": "plugins\\CustomObjectRollupLogger",
+            "dependencies": [
+                {
+                    "package": "apex-rollup@1.4.7-0"
+                }
+            ],
+            "versionNumber": "0.0.12.0",
+            "versionName": "Corrected assertion in one of the custom logger tests",
+            "versionDescription": "Adds RollupLog__c and RollupLogEntry__c custom objects to allow storage of rollup debug logs",
+            "default": false,
+            "unpackagedMetadata": {
+                "path": "plugins/CustomObjectRollupLogger/tests"
+            }
+        },
+        {
+            "package": "Apex Rollup - Nebula Logger",
+            "path": "plugins\\NebulaLogger",
+            "dependencies": [
+                {
+                    "package": "apex-rollup@1.5.20-0"
+                },
+                {
+                    "package": "Nebula Logger - Core@4.8.0-NEXT-ignore-origin-method"
+                }
+            ],
+            "versionNumber": "0.0.8.0",
+            "versionName": "Adding base Rollup string and version number",
+            "versionDescription": "Provides an adapter that hooks rollup debug logging up to Nebula Logger",
+            "default": false,
+            "unpackagedMetadata": {
+                "path": "plugins/NebulaLogger/tests"
+            }
+        },
+        {
+            "package": "Apex Rollup - Rollup Callback",
+            "path": "plugins\\RollupCallback",
+            "dependencies": [
+                {
+                    "package": "apex-rollup@1.3.23-0"
+                }
+            ],
+            "versionNumber": "0.0.3.0",
+            "versionName": "Standardizing plugin infrastructure",
+            "versionDescription": "Use this plugin to dispatch updated rollup information using Platform Events or custom Apex",
+            "default": false,
+            "unpackagedMetadata": {
+                "path": "plugins/RollupCallback/tests"
+            }
+        },
+        {
+            "path": "plugins\\ExtraCodeCoverage",
+            "package": "Apex Rollup - Extra Code Coverage",
+            "versionDescription": "This plugin adds code coverage for Apex Rollup if you need additional code coverage for the base package",
+            "versionName": "Updating code coverage",
+            "versionNumber": "0.0.25.0",
+            "default": false,
+            "scopeProfiles": true,
+            "dependencies": [
+                {
+                    "package": "apex-rollup@1.7.0"
+                }
+            ]
+        },
+        {
+            "path": "extra-tests",
+            "default": false
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "62.0",
+    "packageAliases": {
+        "Apex Rollup - Custom Logger": "0Ho6g000000Gn8ZCAS",
+        "Apex Rollup - Custom Logger@0.0.11-0": "04t6g000008SirvAAC",
+        "Apex Rollup - Custom Logger@0.0.12-0": "04t6g000008SjqIAAS",
+        "Apex Rollup - Extra Code Coverage": "0Ho6g000000GnCWCA0",
+        "Apex Rollup - Extra Code Coverage@0.0.23": "04t6g000008ObVmAAK",
+        "Apex Rollup - Extra Code Coverage@0.0.24": "04t6g000008ObgCAAS",
+        "Apex Rollup - Extra Code Coverage@0.0.25": "04t6g000008OfSiAAK",
+        "Apex Rollup - Nebula Logger": "0Ho6g000000Gn8PCAS",
+        "Apex Rollup - Nebula Logger@0.0.7-0": "04t6g000008b0O7AAI",
+        "Apex Rollup - Nebula Logger@0.0.8-0": "04t6g000007zM6tAAE",
+        "Apex Rollup - Rollup Callback": "0Ho6g000000GnA1CAK",
+        "Apex Rollup - Rollup Callback@0.0.2-0": "04t6g000008ShztAAC",
+        "Apex Rollup - Rollup Callback@0.0.3-0": "04t6g000008Sis0AAC",
+        "Nebula Logger - Core@4.14.4-optionally-auto-call-lightning-logger-lwc": "04t5Y0000015oRNQAY",
+        "apex-rollup": "0Ho6g000000TNcOCAW",
+        "apex-rollup@1.6.34": "04t6g000008OfJfAAK",
+        "apex-rollup@1.6.35": "04t6g000008OfKiAAK",
+        "apex-rollup@1.6.36": "04t6g000008OfMeAAK",
+        "apex-rollup@1.6.37": "04t6g000008OfSEAA0",
+        "apex-rollup@1.7.0": "04t6g000008OfTvAAK",
+        "apex-rollup@1.7.1": "04t6g000008OfWQAA0",
+        "apex-rollup@1.7.2": "04t6g000008OfXTAA0",
+        "apex-rollup@1.7.3": "04t6g000008OfdwAAC",
+        "apex-rollup@1.7.4": "04t6g000008OfezAAC"
+    }
+}
