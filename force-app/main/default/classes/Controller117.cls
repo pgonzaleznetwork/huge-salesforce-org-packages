@@ -1,3 +1,5 @@
 public class Controller117 {
-    // Your code here
+    public static void myMethod(){
+        System.debug('look at me!');
+    }
 }
