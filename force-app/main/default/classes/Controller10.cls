@@ -1,3 +1,3 @@
 public class Controller10 {
-    // Your code here
+    System.debug('hi all!');
 }
