@@ -1,3 +1,5 @@
 public class Controller10 {
-    // Your code here
+    public static void sayHi(){
+        System.debug('oh no!);
+    }
 }
